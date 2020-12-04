@@ -1,0 +1,10 @@
+services:
+  api:
+    image: "gradle:6.7.1-jdk15"
+    user: "gradle"
+    working_dir: /home/gradle/api
+    volumes:
+      - ./:/home/gradle/api
+    ports:
+      - "8080:8080"
+    command: "gradle bootRun"

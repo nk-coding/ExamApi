@@ -13,3 +13,5 @@ query {
     exam
 }
 ```
+
+Special Thanks to Lukas Gabriel and Leyla Niederberger for creative input.
